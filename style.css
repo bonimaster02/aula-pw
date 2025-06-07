@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    background-color: #29293d;
 }
 
 .nav-a , .nav-b{
@@ -22,5 +23,11 @@
 }
 
 .corpoDoTexto {
-    text-align: center;
+    background-color: antiquewhite;
+    border: 3px solid red;
+    border-radius: 30px;
+    color: goldenrod;
+    padding: 50px;
+    margin: 0 10%;
+    
 }
