@@ -1,19 +1,43 @@
 *{
     padding: 0;
     margin: 0;
+}
+
+body {
     background-color: #29293d;
+
+}
+
+.corpoDoTexto {
+
+    background-color: antiquewhite;
+    border: 3px solid red;
+    border-radius: 30px;
+    color: goldenrod;
+    padding: 5%;
+    margin: 50px;
+    
+}
+
+
+.nav{
+    border: 2px solid snow;
+    width: 100%p;
+    height: 50px;
+    text-align: center;
+    margin: 5%;
 }
 
 .nav-a , .nav-b{
     color: chartreuse;
     font-size: 20px;
     text-decoration: none;
-    display: block;
-    margin: 10px;
+    padding: 10%;
+
 }
 
 .nav-a:hover , .nav-b:hover {
-    background-color: black;
+   text-decoration-line: underline;
 }
 
 .nome{
@@ -22,12 +46,3 @@
     text-align: center;
 }
 
-.corpoDoTexto {
-    background-color: antiquewhite;
-    border: 3px solid red;
-    border-radius: 30px;
-    color: goldenrod;
-    padding: 50px;
-    margin: 0 10%;
-    
-}
