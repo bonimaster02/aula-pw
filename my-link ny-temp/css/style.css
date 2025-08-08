@@ -1,0 +1,71 @@
+*{
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sec-perfil {
+    text-align: center;
+}
+
+.foto-perfil {
+    margin: 1rem;
+    width: 8rem;
+    border: goldenrod solid;
+    border-radius: 10rem;
+
+}
+
+.sec-nome {
+    margin: 0 0 2rem 0;
+}
+
+.nome {
+    font-size: 3rem;
+}
+
+.cargo, .atividade {
+    font-size: 1.5rem;
+    margin: 0 0 0,85rem 0;
+}
+
+.sec-btn {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.btn-link {
+    background: #29293D;
+    border: none;
+    border-radius: 1.28rem;
+    cursor: pointer;
+    display: block;
+    font-size: 2.5rem;
+    height: 4rem;
+    width: 20rem;
+    margin: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: goldenrod;
+
+}
+
+.btn-link:hover {
+    opacity: 90%;
+   
+}
+
+.btn-link:active {
+    opacity: 50%;
+    transition: 0.2s;
+    
+}
+
