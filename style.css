@@ -19,7 +19,11 @@ body {
     
 }
 
+.link {
+    margin: 2px;
+    color: aqua;
 
+}
 
 .nome{
     color: crimson;
