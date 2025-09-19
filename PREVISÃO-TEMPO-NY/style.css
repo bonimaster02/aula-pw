@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: azure;
+}
+
+body {
+    background-image: url('img/céu.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+.cores {
+    position: relative;
+    margin-bottom: 600px;
+    display: flex;
+    text-shadow: 
+    -1px -1px 0 black, 
+    1px -1px 0 black,  
+    -1px 1px 0 black,  
+    1px 1px 0 black;   
+}
+
+.c1 {
+    color: #2196f3;
+    margin: 0px 2.5px;
+}
+.c2 {
+    color: #6eb8f5;
+    margin: 0px 2.5px;
+}
+.c3 {
+    color: #9acef8;
+    margin: 0px 2.5px;
+}
+.c4 {
+    color: #c3e3fd;
+    margin: 0px 2.5px;
+}
+.c5 {
+    color: #e8f5ff;
+    margin: 0px 2.5px;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+    
+}
+
+.caixa-maior{
+
+    background-color: #e8f5ff;
+    width: 95%;
+    opacity: 0.8;
+    padding: 1.25rem;
+    border-radius: 1.563rem;
+    max-width: 45rem;
+    border: 2px solid #2196f3;
+    position: absolute;
+    
+}
+
+.titulo{
+    text-transform: uppercase;
+    background-color: #6eb8f5;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    border-radius: 1.563rem;
+
+}
+
+.input-cidade, .pesquisar{
+    padding: 0.625rem;
+    border-radius: 1.563rem;
+    font-size: 1.4rem;
+    background-color: rgb(196, 148, 29);
+    border: 2px #2196f3 solid;
+    width: calc(100% - 100px);
+    margin: 0 0 2rem 2.9rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: #9acef8;
+    outline: 0;
+
+}
+
+.input-cidade {
+    color: #2196f3;
+}
+
+.input-cidade::placeholder {
+   color: azure;
+
+}
+
+.input-cidade:focus {
+    background-color: #c3e3fd;
+}
+
+.pesquisar {
+    cursor: pointer;
+    outline: none;
+    background-color: #2196f3;
+    border: none;
+    
+}
+
+.pesquisar:hover {
+    background-color: #6eb8f5;
+    
+
+}
+
+.pesquisar:active {
+    background-color: #c3e3fd;
+    color: white;
+
+}
+
+.caixa-menor {
+    background-color: #9acef8;
+    margin-bottom: 2rem;
+    border-radius: 1.563rem;
+    
+
+}
+
+.cidade, .temp, .descricao, .umidade {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+
+}
+
+.img {
+    width: 4rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
