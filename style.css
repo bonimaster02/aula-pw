@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: gainsboro;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+
+.título {
+    margin-top: 10vw;
+    font-size: 7vw;
+}
+
+.parágrafo {
+    margin-top: 3vw;
+    margin-bottom: 10vw;
+    font-size: 3vw;
+    font-style: italic;
+}
+
+.links {
+    font-size: 2vw;
+    font-style: italic;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    padding: 0 38.8vw;
+}
+
+.link{
+    color: cornflowerblue;
+    font-size: 4vw;
+    font-style: normal;
+    padding: 10px;
+    text-decoration: none;
+    background-image: url("./img/nuvem.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22vw 7vw;
+}
+
+.p-link{
+    margin-left: -5px;
+}
