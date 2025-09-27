@@ -7,15 +7,16 @@
 }
 
 .título {
-    margin-top: 10vw;
-    font-size: 7vw;
+    margin-top: 5vw;
+    font-size: clamp(0px, 7vw, 70px);
+    color: cornflowerblue;
 }
 
 .parágrafo {
-    margin-top: 3vw;
+    margin-top: 2vw;
     margin-bottom: 10vw;
-    font-size: 3vw;
     font-style: italic;
+    font-size: clamp(0px, 3vw, 20px);
 }
 
 .links {
@@ -29,14 +30,14 @@
 
 .link{
     color: cornflowerblue;
-    font-size: 4vw;
+    font-size: 3vw;
     font-style: normal;
     padding: 10px;
     text-decoration: none;
     background-image: url("./img/nuvem.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 22vw 7vw;
+    background-size: 22vw 5vw;
 }
 
 .p-link{
