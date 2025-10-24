@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícos</title>
+</head>
+
+
+
+
+
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            color: #2196f3;
+            background-color: #e8f5ff;
+            text-align: center;
+        }
+
+        .c1{
+            color: #2196f3;
+        }
+
+        .c2{
+            color: #6eb8f5;
+        }
+
+        .c3{
+            color: #9acef8;
+        }
+
+        .c4{
+            color: #c3e3fd
+        }
+
+        .c5{
+            color: #e8f5ff;
+        }
+
+        h1{
+            text-align: center;
+            margin: 14px 0;
+        }
+
+        .exe{
+            text-align: center;
+            border: 2px solid #2196f3;
+            border-radius: 20px;
+            margin: 13px 540px;
+            background-color: #c3e3fd;
+            max-width: 450px;
+        }
+
+        p{
+            border: 2px solid #6eb8f5;
+            border-radius: 20px;
+            margin: 10px;
+            background-color: #9acef8;
+            color: #e8f5ff;
+        }
+
+        span{
+            background-color: #9acef8;
+            color: #2196f3;
+        }
+
+        input{
+            border: 2px solid #6eb8f5;
+            border-radius: 20px;
+            padding: 6px;
+            color: #2196f3;
+            text-align: center;
+        }
+
+        input::placeholder{
+            color: #2196f3;
+        }
+
+        input:focus{
+            outline: none;
+            
+        }
+
+        button{
+            padding: 3px;
+            background-color: #2196f3;
+            border: 2px solid #2196f3;
+            color: #e8f5ff;
+            border-radius: 20px;
+        }
+
+        button:hover{
+            background-color: #6eb8f5;
+        }
+
+        button:active{
+            background-color: #9acef8;
+        }
+
+        .i1000, .i1002{
+            padding-left: 104.5px;
+            padding-right: 104.5px;
+        }
+
+
+    </style>
+
+
+
+
+
+<body>
+
+    <a style="text-decoration: none; color: cornflowerblue; background-image: url(../img/nuvem.png); background-repeat: no-repeat; background-position: center; background-size: 90px 40px; margin: 20px; padding: 20px; " href="../4ºBimestre/4Bindex.html">Lobby 4</a>
+    
+    
+    <h1>Exercícios</h1>
+
+    <div class="conteiner">
+
+        <div class="exe">
+            <p>exe1000 - Hello World</p>
+            <input placeholder="digite 'Hello World' aqui!" class="i1000" type="text">
+            <button onclick="clicka()">Enviar</button>
+            <p>Resultado: <span class="r1000">---</span></p>
+        </div>
+
+        <div class="exe">
+            <p>exe1001 - Soma de variáveis</p>
+            <input placeholder="digite um valor aqui" class="i1001a" type="text">
+            +
+            <input placeholder="digite um valor aqui" class="i1001b" type="text">
+            <button onclick="clickb()">Enviar</button>
+            <p>Resultado: X = <span class="r1001">---</span></p>
+        </div>
+
+        <div class="exe">
+            <p>exe1002 - Área do círculo</p>
+            <input placeholder="digite o valor do raio aqui!" class="i1002" type="text">
+            <button onclick="clickc()">Enviar</button>
+            <p>Resultado: A=<span class="r1002">---</span></p>
+        </div>
+
+        <div class="exe">
+            <p>exe1003 - Soma de números</p>
+            <input placeholder="digite um número aqui" class="i1003a" type="text">
+            +
+            <input placeholder="digite um número aqui" class="i1003b" type="text">
+            <button onclick="clickd()">Enviar</button>
+            <p>Resultado: SOMA = <span class="r1003">---</span></p>
+        </div>
+
+        <div class="exe">
+            <p>exe1004 - Multiplicação</p>
+            <input placeholder="digite um número aqui" class="i1004a" type="text">
+            *
+            <input placeholder="digite um número aqui" class="i1004b" type="text">
+            <button onclick="clicke()">Enviar</button>
+            <p>Resultado: PROD = <span class="r1004">---</span></p>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script>
+
+function clicka(){
+    var HW = document.querySelector('.i1000').value;
+    document.querySelector('.r1000').innerHTML = HW
+}
+
+function clickb(){
+    var aa = parseInt(document.querySelector('.i1001a').value);
+    var bb = parseInt(document.querySelector('.i1001b').value);
+    document.querySelector('.r1001').innerHTML = aa + bb
+}
+
+function clickc(){
+    var raio = parseFloat(document.querySelector('.i1002').value);
+    document.querySelector('.r1002').innerHTML = ((raio*raio) * Math.PI).toFixed(4)
+}
+
+function clickd(){
+    var a = parseInt(document.querySelector('.i1003a').value);
+    var b = parseInt(document.querySelector('.i1003b').value);
+    document.querySelector('.r1003').innerHTML = a + b
+}
+
+function clicke(){
+    var A = parseInt(document.querySelector('.i1004a').value);
+    var B = parseInt(document.querySelector('.i1004b').value);
+    document.querySelector('.r1004').innerHTML = A * B
+}
+    </script>
+
+
+
+
+
+</body>
+</html>
