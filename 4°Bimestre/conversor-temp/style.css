@@ -2,6 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    justify-items: center;
+    align-content: center;
+}
+
+
+
+.tudo{
+    width: 367px;
+    height: 100vh;
+    position: absolute;
+}
+
+
+
+label{
+    position: relative;
+    left: -105px;
 }
 
 
@@ -9,10 +26,13 @@
 input, input:focus{
     padding: 7px;
     border-radius: 20px;
-    position: absolute;
-    left: 120px;
     outline: none;
+    position: absolute;
+    right: 30px;
+    margin-top: 220px;
+    text-align: left;
 }
+
 
 
 
@@ -63,20 +83,19 @@ input, input:focus{
 
 
 button{
-    position: absolute;
-    left: 20px;
     padding: 7.5px 20px;
     border-radius: 40px;
     border: 2px solid;
-    background-color: blueviolet;
+    background-color: #2196f3;
     font-size: 15px;
     color: aliceblue;
+    margin-left: 135px;
 }
 
 button:hover{
-    font-size: 18px;
+    background-color: #6eb8f5;
 }
 
 button:active{
-    background-color: rgba(137, 43, 226, 0.647);
+    background-color: #9acef8;
 }
