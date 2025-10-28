@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1>Conversor de temperatura</h1>
+
+    <div class="d">
+    <label for="c" class="lc">Celsius</label>
+    <input type="text" class="c" onchange="Celsius()" placeholder="°C"> 
+    </div>
+
+    <div class="d">
+    <label for="f" class="lf">Fahrenheit</label>
+    <input type="text" class="f" onchange="Fahrenheit()" placeholder="°F">
+    </div>
+
+    <div class="d">
+    <label for="k" class="lk">Kelvin</label>
+    <input type="text" class="k" onchange="Kelvin()" placeholder="°K">
+    </div>
+
+    <button onclick="Limpar()">Limpar</button>
+
+</body>
+</html>

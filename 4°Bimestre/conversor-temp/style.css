@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+input, input:focus{
+    padding: 7px;
+    border-radius: 20px;
+    position: absolute;
+    left: 120px;
+    outline: none;
+}
+
+
+
+.c{
+    border: 4px solid red;
+    top: 71.5px;
+}
+.c:focus{
+    left: 140px;
+}
+.lc{
+    color: red;
+}
+
+
+
+.f{
+    border: 4px solid orange;
+    top: 134.4px;
+}
+.f:focus{
+    left: 140px;
+}
+.lf{
+    color: orange;
+}
+
+
+
+.k{
+    border: 4px solid cornflowerblue;
+    top: 195.6px;
+}
+.k:focus{
+    left: 140px;
+}
+.lk{
+    color: cornflowerblue;
+}
+
+
+
+.d{
+    margin: 40px 20px;
+    font-size: 20px;
+}
+
+
+
+button{
+    position: absolute;
+    left: 20px;
+    padding: 7.5px 20px;
+    border-radius: 40px;
+    border: 2px solid;
+    background-color: blueviolet;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+button:hover{
+    font-size: 18px;
+}
+
+button:active{
+    background-color: rgba(137, 43, 226, 0.647);
+}
