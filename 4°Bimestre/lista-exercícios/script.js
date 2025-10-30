@@ -11,14 +11,13 @@ function Exe1(){
 
 function Exe2(){
     var Xe2 = parseInt(document.querySelector('.ie2').value)
-    if(Xe2 == 0){
+    if(Xe2 > 0){
+        document.querySelector('.re2').innerHTML = "positivo"
+    } else if(Xe2 < 0){
+        document.querySelector('.re2').innerHTML = "negativo"
+    } else {
         document.querySelector('.re2').innerHTML = "nulo"
-    } else if(Xe2 % 2 == 0) {
-        document.querySelector('.re2').innerHTML = "par"
-    } else{
-        document.querySelector('.re2').innerHTML = "ímpar"
     }
-
 }
 
 
@@ -46,7 +45,7 @@ function Exe3(){
 function Exe4(){
     var Xe4 = [parseInt(document.querySelector('.ie4_1').value), parseInt(document.querySelector('.ie4_2').value), parseInt(document.querySelector('.ie4_3').value)]
     Xe4.sort((a, b) => a - b);     
-    document.querySelector('.re4').innerHTML = Xe4
+    document.querySelector('.re4').innerHTML = `${Xe4[0]}<br>${Xe4[1]}<br>${Xe4[2]}`
 }
 
 
@@ -59,6 +58,4 @@ function Exe5(){
     var Ve5 = [Ye5, Ze5, We5]
     Ve5.sort((a, b) => b - a)
     document.querySelector(".re5").innerHTML = Ve5
-
-
 }
