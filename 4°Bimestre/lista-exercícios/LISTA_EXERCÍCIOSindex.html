@@ -5,31 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de exercícios</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
 </head>
 <body>
 
     <a href="../4Bindex.html">Lobby 4</a>
 
-    <div class="exe1">
+    <h1>Escolha um exercício</h1>
+
+    <select id="selecao">
+        <option value=""> ----- Selecione um Exercício ----- </option>
+        <option value="1">Exercício 1 - Tabuada</option>
+        <option value="2">Exercício 2 - Positivo, Negativo ou Nulo</option>
+        <option value="3">Exercício 3 - É primo?</option>
+        <option value="4">Exercício 4 - Medalhas</option>
+        <option value="5">Exercício 5 - A idade de Dona Mônica</option>
+    </select>
+
+    <div class="exe" id="e1">
     <label for="ie1">Digite um número:</label>
     <input type="number" class="ie1" placeholder="---" onchange="Exe1()">
     <div class="re1">---</div>
     </div>
 
-    <div class="exe2">
+    <div class="exe" id="e2">
         <label for="ie2">Digite um número:</label>
         <input type="number" class="ie2" placeholder="---" onchange="Exe2()">
         <div class="re2">---</div>
     </div>
 
-    <div class="exe3">
+    <div class="exe" id="e3">
         <label for="ie3">Digite um número:</label>
         <input type="number" class="ie3" placeholder="---" onchange="Exe3()">
         <div class="re3">---</div>
     </div>
 
-    <div class="exe4">
+    <div class="exe" id="e4">
         <input type="text" class="ie4_1" placeholder="Digite o primeiro valor aqui">
         <input type="text" class="ie4_2" placeholder="Digite o segundo valor aqui">
         <input type="text" class="ie4_3" placeholder="Digite o terceiro valor aqui">
@@ -37,7 +47,7 @@
         <div class="re4">---</div>
     </div>
 
-    <div class="exe5">
+    <div class="exe" id="e5">
         <input type="text" class="ie5_1" placeholder="Digite a idade de Mônica">
         <input type="text" class="ie5_2" placeholder="Digite a idade de um filho">
         <input type="text" class="ie5_3" placeholder="Digite a idade de outro filho">
@@ -48,4 +58,7 @@
 
 
 </body>
+
+    <script src="./script.js"></script>
+
 </html>

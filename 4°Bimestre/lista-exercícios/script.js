@@ -1,3 +1,17 @@
+const select = document.getElementById('selecao')
+
+select.addEventListener('change', function(){
+    const valor = this.value;
+
+    for(let i = 1; i <= 5; i++){
+        document.getElementById('e' + i).style.display = 'none'
+    }
+
+    if(valor){
+        document.getElementById('e' + valor).style.display = 'block'
+    }
+})
+
 function Exe1(){
     var Xe1 = parseInt(document.querySelector('.ie1').value)
     document.querySelector('.re1').innerHTML = ""

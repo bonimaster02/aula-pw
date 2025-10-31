@@ -4,22 +4,62 @@
     box-sizing: border-box;
 }
 
-.exe1{
-    background-color: lightgray;
+body {
+    font-family: Arial, sans-serif;
 }
 
-.exe2{
-    background-color: lightgray;
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+a:hover {
+    text-decoration: underline;
 }
 
-.exe3{
-    background-color: lightgray;
+.exe {
+    display: none;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 15px;
 }
 
-.exe4{
-    background-color: lightgray;
+
+#e1 { 
+    background-color: rgb(255, 151, 151); 
+}  
+#e2 { 
+    background-color: rgb(255, 255, 163); 
+}   
+#e3 { 
+    background-color: rgb(147, 255, 147); 
+}  
+#e4 { 
+    background-color: rgb(132, 132, 255); 
+}  
+#e5 { 
+    background-color: rgb(255, 159, 255); 
+}  
+
+input, select, button {
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid;
+    font-size: 15px;
 }
 
-.exe5{
-    background-color: lightgray;
+button {
+    background-color: goldenrod;
+    color: white;
+    border: 2px solid white;
+}
+
+button:hover {
+    background-color: gold;
+}
+
+div {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
 }
