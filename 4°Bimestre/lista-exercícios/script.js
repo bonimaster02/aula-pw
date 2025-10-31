@@ -43,9 +43,9 @@ function Exe3(){
 
 
 function Exe4(){
-    var Xe4 = [parseInt(document.querySelector('.ie4_1').value), parseInt(document.querySelector('.ie4_2').value), parseInt(document.querySelector('.ie4_3').value)]
+    var Xe4 = [parseFloat(document.querySelector('.ie4_1').value), parseFloat(document.querySelector('.ie4_2').value), parseFloat(document.querySelector('.ie4_3').value)]
     Xe4.sort((a, b) => a - b);     
-    document.querySelector('.re4').innerHTML = `${Xe4[0]}<br>${Xe4[1]}<br>${Xe4[2]}`
+    document.querySelector('.re4').innerHTML = `Ouro:${Xe4[0]}<br>Prata:${Xe4[1]}<br>Bronze:${Xe4[2]}`
 }
 
 
@@ -57,5 +57,5 @@ function Exe5(){
     var We5 = Xe5 - (Ye5 + Ze5)
     var Ve5 = [Ye5, Ze5, We5]
     Ve5.sort((a, b) => b - a)
-    document.querySelector(".re5").innerHTML = Ve5
+    document.querySelector(".re5").innerHTML = "a idade do filho mais velho é: " + Ve5[0]
 }
